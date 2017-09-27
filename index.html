@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
+    <script src="javascript/jquery.scrollBanner.js"></script>
+    <title>MIUI官方网站</title>
+</head>
+
+<body>
+    <div class="header_on">
+        <div class="header">
+            <a class="miui_logo" href="http://www.miui.com/">MIUI</a>
+            <p class="miui_menu">
+                <a class="current" href="http://www.miui.com">首页</a>
+                <a href="http://www.miui.com/zt/miui9/index.html" style="font-family:'microsoft yahei';">MIUI 9</a>
+                <a href="http://www.miui.com/download.html">下载</a>
+                <a href="http://www.miui.com/unlock/index.html">解锁</a>
+                <a href="http://www.miui.com/index.html">论坛</a>
+            </p>
+        </div>
+    </div>
+    <div id="lunbo"></div>
+    <script>
+        $('#lunbo').scrollBanner({
+            images: [{
+                    src: 'images/1.png',
+                    title: 'MIUI 9全速升级',
+                    href: 'http://www.miui.com/thread-10040155-1-1.html'
+                },
+                {
+                    src: 'images/2.png',
+                    title: 'MIUI 9全速升级',
+                    href: 'http://www.miui.com/thread-9117935-1-1.html?from=miui'
+                }
+            ],
+            scrollTime: 3000,
+            bannerHeight: '657px',
+            iconColor: '#FFFFFF',
+            iconHoverColor: '#82C900',
+            iconPosition: 'center'
+        })
+    </script>
+    <div class="content_outerwrapper">
+        <div class="content_innerwrapper">
+            <ul>
+                <li class="banner_list">
+                    <a href="">
+                        <img src="images/content_1.jpg" alt="">
+                        <div>
+                            <h3>如何线刷升级 MIUI 9</h3>
+                            <p>点击查看>></p>
+                        </div>
+                    </a>
+                </li>
+                <li class="banner_list">
+                    <a href=""> 
+                        <img src="images/content_2.png" alt="">
+                       <div>
+                          <h3>MIUI第349周更新公告</h3>
+                          <p>查看国庆假期更新说明</p>
+                      </div>
+                    </a>
+                </li>
+                <li class="banner_list">
+                    <a href="">
+                        <img src="images/content_3.png" alt="">
+                        <div>
+                            <h3>MIUI论坛APP邀你体验</h3>
+                            <p>全新改版 更好玩、更易用</p>
+                        </div>
+                     </a>
+                </li>
+            </ul>
+            <img src="images/title.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
